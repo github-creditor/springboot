@@ -1,0 +1,63 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.wenjie.boot.bean.Persion",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.wenjie.boot.bean.Pet>>",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wenjie.boot.bean.Persion",
+      "defaultValue": false
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.wenjie.boot.bean.Pet",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    },
+    {
+      "name": "person.username",
+      "type": "java.lang.String",
+      "sourceType": "com.wenjie.boot.bean.Persion"
+    }
+  ],
+  "hints": []
+}

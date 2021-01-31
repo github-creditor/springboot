@@ -1,0 +1,43 @@
+
+# 细节，注意的点，一书写String类型的时候可以不用加“”
+#      一定要注意空格
+#     一定要注意单词是不是对照的，如果不对照的话就会没有输入进去
+#     里面实际使用的是set方式，进行的写入。 如果不加set方法的话就是空的
+#     如果application.properties 和application.yaml 一样的情况下  会以application.peoperties优先
+#      “”会转义   ‘’不会转义
+#     如果即不加“” 也不加'' 默认的情况下是加的“”
+
+person:
+  username: a\naa
+  boss: true
+  birth: 2019/12/9
+  age: 18
+  #interests: [篮球,足球]
+  interests:
+    - "篮球"
+    - "足球"
+    - 18
+  animal: ["阿猫","阿狗"]
+  #score: {english:80,math:90}
+  score:
+    english: 80
+    math: 90
+  salarys:
+    - 9999.99
+    - 9999.88
+  pet:
+    use: "小花"
+    age: 8
+  allPets:
+    sick:
+      - use: "阿猫"
+        age: 8
+    health:
+      - use: "小黑"
+        age: 9
+
+spring:
+  mvc:
+    static-path-pattern: /res/**
+  resources:
+    static-locations: classpath:/hehe
