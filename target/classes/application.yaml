@@ -36,8 +36,8 @@ person:
       - use: "小黑"
         age: 9
 
-spring:
-  mvc:
-    static-path-pattern: /res/**
-  resources:
-    static-locations: classpath:/hehe
+#spring:
+#  mvc:
+#    static-path-pattern: /res/
+#  resources:
+#    static-locations: classpath:/hehe
