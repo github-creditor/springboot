@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="../static/css/sign.css" >
+<form  method="post" class="form" th:action="@{/sign01}">
+    <input type="text" name="username" placeholder="请输入账号">
+    <input type="text" name="password" placeholder="请输入密码">
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
